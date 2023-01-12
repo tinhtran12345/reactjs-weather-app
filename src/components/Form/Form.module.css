@@ -1,0 +1,31 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* min-width: 300px; */
+}
+.input{
+    margin-bottom: 12px;
+    padding: 15px 18px;
+    border-radius: 25px;
+    border: none;
+    align-items: center;
+    font-size: 16px;
+    
+}
+
+.button{
+    margin-bottom: 12px;
+    padding: 12px 15px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    background: var(--gradient);
+    cursor: pointer;
+    color: var(--main-color--text);
+}
+.button:hover{
+    transition: 0.2 ease-in;
+    scale: 1.05;
+}

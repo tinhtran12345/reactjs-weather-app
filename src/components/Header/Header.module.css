@@ -1,0 +1,11 @@
+.headingForecast{
+    margin-top: 3rem;
+    color: var(--main-color--text);
+    font-weight: bolder;
+    margin-bottom: 5rem;
+}
+.textLight{
+    font-weight: 100;
+    line-height: 5px;
+
+}
